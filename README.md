@@ -123,7 +123,7 @@ class C3PO:
 ## Examples
 
 ### Example 1
-**millenium-falcon.json**
+**[millenium-falcon.json](examples/example1/millenium-falcon.json)**
 ```
 {
   "autonomy": 6, 
@@ -136,7 +136,7 @@ class C3PO:
   ]
 }
 ```
-**empire.json**
+**[empire.json](examples/example1/empire.json)**
 ```
 {
   "countdown": 7, 
@@ -151,9 +151,9 @@ class C3PO:
 `giveMeTheOdds(milleniumFalconJsonFile, empireJsonFile)` should return 0 as The Millenium Falcon cannot go from Tatooine to Endor in 7 days or less (the Millenium Falcon must refuel for 1 day on either Dagobah or Hoth).
 
 ### Example 2
-**millenium-falcon.json**: same as above
+**[millenium-falcon.json](examples/example2/millenium-falcon.json)**: same as above
 
-**empire.json**
+**[empire.json](examples/example2/empire.json)**
 ```
 {
   "countdown": 8, 
@@ -171,9 +171,9 @@ class C3PO:
 - Travel from Hoth to Endor
 
 ### Example 3
-**millenium-falcon.json**: same as above
+**[millenium-falcon.json](examples/example3/millenium-falcon.json)**: same as above
 
-**empire.json**
+**[empire.json](examples/example3/empire.json)**
 ```
 {
   "countdown": 9, 
@@ -192,9 +192,9 @@ class C3PO:
 - Travel from Hoth to Endor
 
 ### Example 4
-**millenium-falcon.json**: same as above
+**[millenium-falcon.json](examples/example4/millenium-falcon.json)**: same as above
 
-**empire.json**
+**[empire.json](examples/example4/empire.json)**
 ```
 {
   "countdown": 10, 
