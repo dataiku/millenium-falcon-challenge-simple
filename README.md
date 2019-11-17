@@ -36,15 +36,15 @@ For example, the probability to get captured is:
    
    - if the Millenium Falcon travels via 1 planet with bounty hunters and refuels on this planet:
 
-   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-2.gif)
+   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-2.png)
 
    - if the Millenium Falcon travels via 2 planets with bounty hunters:
 
-   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-2.gif)
+   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-2.png)
 
    - if the Millenium Falcon travels via 3 planets with bounty hunters:
 
-   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-3.gif)
+   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-3.png)
 
 
 ## The mission
