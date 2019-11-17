@@ -24,28 +24,28 @@ If the Millenium Falcon arrives on a planet on a day where Bounty Hunter are exp
 Hint: To avoid the Bounty Hunters, the Millenium Falcon can land on a planet with no bounty hunters (even if its tank is full) and wait for 1 or more days before pursuing its route.
 
 The mathematical formula to compute the total probability of being captured is:
-```
-1/10 + 9/10^2 + 9^2/10^3 + ... + 9^k/10^(k+1)
-```
+
+![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/bounty-hunter-formula.gif)
+
 where k is the number of times the Bounty Hunter tried to capture the Millenium Falcon.
 
 For example, the probability to get captured is:
    - if the Millenium Falcon travels via 1 planet with bounty hunters:
-   ```
-	1/10 = 0.1
-   ```
+  
+   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-1.gif)
+   
    - if the Millenium Falcon travels via 1 planet with bounty hunters and refuels on this planet:
-   ```
-	1/10 + 9/10^2 = 0.19
-   ```
+
+   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-2.gif)
+
    - if the Millenium Falcon travels via 2 planets with bounty hunters:
-   ```
-	1/10 + 9/10^2 = 0.19
-   ```
+
+   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-2.gif)
+
    - if the Millenium Falcon travels via 3 planets with bounty hunters:
-   ```
-	1/10 + 9/10^2 + 9^2/10^3 = 0.271
-   ```
+
+   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-3.gif)
+
 
 ## The mission
 
