@@ -32,7 +32,7 @@ where k is the number of times the Bounty Hunter tried to capture the Millenium 
 For example, the probability to get captured is:
    - if the Millenium Falcon travels via 1 planet with bounty hunters:
   
-   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-1.png)
+   ![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-90.png)
    
    - if the Millenium Falcon travels via 1 planet with bounty hunters and refuels on this planet:
 
