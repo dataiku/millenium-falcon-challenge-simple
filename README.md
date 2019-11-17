@@ -36,7 +36,7 @@ For example, the probability to get captured is:
    ```
    - if the Millenium Falcon travels via 1 planet with bounty hunters and refuels on this planet:
    ```
-	110+9102= 0.19
+	1/10 + 9/10^2 = 0.19
    ```
    - if the Millenium Falcon travels via 2 planets with bounty hunters:
    ```
