@@ -25,7 +25,7 @@ Hint: To avoid the Bounty Hunters, the Millenium Falcon can land on a planet wit
 
 The mathematical formula to compute the total probability of being captured is:
 
-![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/bounty-hunter-formula.gif)
+![formula](https://github.com/dataiku/millenium-falcon-challenge-simple/blob/master/resources/formula-k.png)
 
 where k is the number of times the Bounty Hunter tried to capture the Millenium Falcon.
 
