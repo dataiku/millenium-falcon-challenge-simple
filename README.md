@@ -1,6 +1,6 @@
 # Developer Technical Test @ Dataiku
 
-# What are the odds?
+## What are the odds?
 
 [A long time ago in a galaxy far away...](https://starwarsintrocreator.kassellabs.io/?ref=redirect#!/BLOF1WUcqAU6USUYMZ_W)
 
@@ -55,7 +55,7 @@ Your mission is to program C3PO to compute the odds that the Millenium Falcon re
 
 Your program will be given 2 JSON files as input:
 
-### millenium-falcon.json
+**millenium-falcon.json**
 
 The first JSON file contains the navigation data of the Millenium Falcon
 ```json
@@ -73,7 +73,7 @@ The first JSON file contains the navigation data of the Millenium Falcon
       - Destination (string):  Name of the destination planet. Cannot be null or empty.
       - travelTime (integer): Number days needed to travel from one planet to the other. Must be strictly positive..
 
-### empire.json
+**empire.json**
 
 The second JSON file contains the data intercepted by the rebels about the plans of the Empire:
 ```json
