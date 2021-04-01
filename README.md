@@ -148,7 +148,7 @@ class C3PO:
 }
 ```
 
-`giveMeTheOdds(milleniumFalconJsonFile, empireJsonFile)` should return 0 as The Millenium Falcon cannot go from Tatooine to Endor in 7 days or less (the Millenium Falcon must refuel for 1 day on either Dagobah or Hoth).
+`giveMeTheOdds(empireJsonFile)` should return 0 as The Millenium Falcon cannot go from Tatooine to Endor in 7 days or less (the Millenium Falcon must refuel for 1 day on either Dagobah or Hoth).
 
 ### Example 2
 **[millenium-falcon.json](examples/example2/millenium-falcon.json)**: same as above
@@ -165,7 +165,7 @@ class C3PO:
 }
 ```
 
-`giveMeTheOdds(milleniumFalconJsonFile, empireJsonFile)` should return 0.81 as The Millenium Falcon can go from Tatooine to Endor in 8 days with the following plan:
+`giveMeTheOdds(empireJsonFile)` should return 0.81 as The Millenium Falcon can go from Tatooine to Endor in 8 days with the following plan:
 - Travel from Tatooine to Hoth, with 10% chance of being captured on day 6 on Hoth.
 - Refuel on Hoth with 10% chance of being captured on day 7 on Hoth.
 - Travel from Hoth to Endor
@@ -185,7 +185,7 @@ class C3PO:
 }
 ```
 
-`giveMeTheOdds(milleniumFalconJsonFile, empireJsonFile)` should return 0.9 as The Millenium Falcon can go from Tatooine to Endor in 8 days with the following plan:
+`giveMeTheOdds(empireJsonFile)` should return 0.9 as The Millenium Falcon can go from Tatooine to Endor in 8 days with the following plan:
 - Travel from Tatooine to Dagobath.
 - Refuel on Dagobah
 - Travel from Dagobah to Hoth, with 10% chance of being captured on day 8 on Hoth.
@@ -206,7 +206,7 @@ class C3PO:
 }
 ```
 
-`giveMeTheOdds(milleniumFalconJsonFile, empireJsonFile)` should return 1 as The Millenium Falcon can go from Tatooine to Endor in 10 days and avoid Bounty Hunters with the following plans:
+`giveMeTheOdds(empireJsonFile)` should return 1 as The Millenium Falcon can go from Tatooine to Endor in 10 days and avoid Bounty Hunters with the following plans:
 - Travel from Tatooine to Dagobah,  refuel on Dagobah
 - Wait for 1 day on Dagobah
 - Travel from Dagobah to Hoth
