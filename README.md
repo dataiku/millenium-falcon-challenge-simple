@@ -63,7 +63,7 @@ The first JSON file contains the navigation data of the Millenium Falcon
   "autonomy": 6, 
   "routes": [
     {"origin": "Tatooine", "destination": "Dagobah", "travelTime": 4 },
-    {"origin": "Dagobah", "destination": "Endor", "travelTime": 1 },
+    {"origin": "Dagobah", "destination": "Endor", "travelTime": 1 }
   ]
 }
 ```
@@ -81,7 +81,7 @@ The second JSON file contains the data intercepted by the rebels about the plans
   "countdown": 6, 
   "bounty_hunters": [
     {"planet": "Tatooine", "day": 4 },
-    {"planet": "Dagobah", "day": 5 },
+    {"planet": "Dagobah", "day": 5 }
   ]
 }
 ```
@@ -114,9 +114,9 @@ public class C3PO {
 **Python**
 ```python
 class C3PO:
-    def __init__(self, milleniumFalconJsonFile):
+    def __init__(self, milleniumFalconJsonFilePath):
         ...
-    def giveMeTheOdds(self, empireJsonFile):
+    def giveMeTheOdds(self, empireJsonFilePath):
         ...
 ```
 
@@ -132,7 +132,7 @@ class C3PO:
     {"origin": "Dagobah", "destination": "Endor", "travelTime": 4 },
     {"origin": "Dagobah", "destination": "Hoth", "travelTime": 1 },
     {"origin": "Hoth", "destination": "Endor", "travelTime": 1 },
-    {"origin": "Tatooine", "destination": "Hoth", "travelTime": 6 },
+    {"origin": "Tatooine", "destination": "Hoth", "travelTime": 6 }
   ]
 }
 ```
@@ -143,7 +143,7 @@ class C3PO:
   "bounty_hunters": [
     {"planet": "Hoth", "day": 6 }, 
     {"planet": "Hoth", "day": 7 },
-    {"planet": "Hoth", "day": 8 },
+    {"planet": "Hoth", "day": 8 }
   ]
 }
 ```
@@ -160,7 +160,7 @@ class C3PO:
   "bounty_hunters": [
     {"planet": "Hoth", "day": 6 }, 
     {"planet": "Hoth", "day": 7 },
-    {"planet": "Hoth", "day": 8 },
+    {"planet": "Hoth", "day": 8 }
   ]
 }
 ```
@@ -180,7 +180,7 @@ class C3PO:
   "bounty_hunters": [
     {"planet": "Hoth", "day": 6 }, 
     {"planet": "Hoth", "day": 7 },
-    {"planet": "Hoth", "day": 8 },
+    {"planet": "Hoth", "day": 8 }
   ]
 }
 ```
@@ -201,7 +201,7 @@ class C3PO:
   "bounty_hunters": [
     {"planet": "Hoth", "day": 6 }, 
     {"planet": "Hoth", "day": 7 },
-    {"planet": "Hoth", "day": 8 },
+    {"planet": "Hoth", "day": 8 }
   ]
 }
 ```
